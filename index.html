@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR-Based Mapping</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>QR-Based Mapping</h1>
+    <div id="mapContainer">
+        <img id="map" src="images/level_1.png" alt="map">
+        <div id="marker"></div>
+    </div>
+    <div id="camera"></div>
+    <button id="btn" onclick="toggleScanner()">SCAN</button>
+
+    <script src="https://unpkg.com/html5-qrcode@2.3.8/html5-qrcode.min.js"></script>
+    <script src="main.js"></script>
+    <script src="map.js"></script>
+    <script src="data.js"></script>
+    <script src="scanner.js"></script>
+</body>
+</html>

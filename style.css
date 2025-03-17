@@ -1,0 +1,51 @@
+:root {
+    --blue: rgb(23, 63, 128);
+}
+
+body {
+    text-align: center;
+    margin: 0;
+}
+
+h1 {
+    color:var(--blue);
+}
+
+#mapContainer{
+    background-color: brown;
+    position: relative;
+    font-size: 0;
+    overflow: hidden;
+    display: none;
+}
+
+#map {
+    width: 100%;
+    
+}
+
+#marker {
+    width: 3vw;
+    height: 3vw;
+    background-color: var(--blue);
+    border-radius: 50%;
+    outline: 5px solid;
+    border: 5px solid white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: translate(-50%, -50%);
+}
+
+#btn {
+    background-color: var(--blue);
+    color: antiquewhite;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
